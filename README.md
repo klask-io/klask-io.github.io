@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# [![klask.io](https://raw.githubusercontent.com/klask-io/klask-io/master/src/main/webapp/content/images/logo-klask.png)](https://github.com/klask-io/klask-io)
 
-You can use the [editor on GitHub](https://github.com/klask-io/klask-io.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## What is klask.io ?
+__klask.io__ is an open source search engine for source code. This application was generated using [JHipster](https://jhipster.github.io).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Live demo
+http://app.klask.io/
 
-### Markdown
+### How to run it ?
+You can run an instance easily by pulling the docker image and execute by following :
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    docker run klask/klask.io
 
-```markdown
-Syntax highlighted code block
+#### docker-compose
+an example of a docker-compose.yml :
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```Dockerfile
+version: '2'
+services:
+  klask-app:
+    image: klask/klask.io:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - /mnt/svn:/repo
+      - ./data:/klask-data
+      - ./application-docker.yml:/application-docker.yml
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`/mnt/svn` is the path to my repositories  
+`./data` is the location where elasticsearch files and database were saved.  
+The optional file `application-docker.yml` can overrides all properties defined in [application.yml](/src/main/resources/config/application.yml) and [application-docker.yml](/src/main/resources/config/application-docker.yml)   
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/klask-io/klask-io.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
