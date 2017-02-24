@@ -1,10 +1,9 @@
 title: klask.io
 show_downloads: true
-baseurl: "https://github.com/klask-io/klask-io"
 theme: jekyll-theme-cayman
-lsi: false
-safe: true
-source: ["https://github.com/klask-io/klask-io"]
+lsi: true
+safe: false
+source: ['https://github.com/klask-io/klask-io']
 incremental: false
 highlighter: rouge
 
