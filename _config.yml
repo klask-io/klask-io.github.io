@@ -1,3 +1,8 @@
 title: klask.io
 show_downloads: true
 theme: jekyll-theme-cayman
+
+# About/contact
+author:
+  name:       Jérémie Harel
+  url:        http://klask.io
