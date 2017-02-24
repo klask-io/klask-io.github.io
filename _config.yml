@@ -1,6 +1,7 @@
 title: klask.io
 show_downloads: true
 theme: jekyll-theme-cayman
+url: "http://klask.io"
 lsi: true
 safe: false
 source: ['https://github.com/klask-io/klask-io']
