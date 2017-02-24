@@ -1,6 +1,11 @@
 title: klask.io
 show_downloads: true
 theme: jekyll-theme-cayman
+lsi: false
+safe: true
+source: [https://github.com/klask-io/klask-io]
+incremental: false
+highlighter: rouge
 
 # About/contact
 author:
