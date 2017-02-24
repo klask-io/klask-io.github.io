@@ -1,5 +1,5 @@
 title: klask.io
-show_downloads: false
+show_downloads: true
 theme: jekyll-theme-cayman
 lsi: false
 safe: true
