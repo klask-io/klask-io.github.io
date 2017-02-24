@@ -1,5 +1,5 @@
 title: klask.io
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-cayman
 url: "http://klask.io"
 lsi: true
