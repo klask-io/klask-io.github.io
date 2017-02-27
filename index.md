@@ -5,7 +5,7 @@ title: klask.io
 # [![klask.io](https://raw.githubusercontent.com/klask-io/klask-io/master/src/main/webapp/content/images/logo-klask.png)](https://github.com/klask-io/klask-io)
 
 ## What is klask.io ?
-__[klask.io](https://github.com/klask-io/klask-io)__ is an open source search engine for source code. This application was generated using [JHipster](https://jhipster.github.io).
+__[klask.io](https://github.com/klask-io/klask-io)__ is an open source search engine for source code. This application was generated using [JHipster](https://jhipster.github.io). It can be installed on a local server to index your VCS, and deserve a GUI for developers.
 
 ### Live demo
 [app.klask.io](http://app.klask.io)
