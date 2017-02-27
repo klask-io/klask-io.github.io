@@ -12,3 +12,6 @@ highlighter: rouge
 author:
   name:       Jérémie H.
   url:        http://klask.io
+
+# Google services
+google_analytics: UA-92691122-2
