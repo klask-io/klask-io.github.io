@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  klask:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-04-02T20:08:41.88706004+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 46b86975eac7201ae6aaaec26cc0ac00892784c1b1e4dca24bdac859e53c91f0
+    name: klask
+    type: application
+    urls:
+    - klask-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-04-02T20:08:41.885014779+02:00"
